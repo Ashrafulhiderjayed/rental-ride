@@ -12,7 +12,16 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        primary: "#fe5b3e",
+        primaryLight: "#FF7F5B",
+        deepNavy: 'rgb(8, 40, 82)',
+      },
+      fontFamily:{
+        playfair: ['Playfair Display', "sans-serif"],
+        heebo: ['Heebo', "sans-serif"],
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
