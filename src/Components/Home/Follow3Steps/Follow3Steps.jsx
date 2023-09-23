@@ -10,7 +10,7 @@ const Follow3Steps = () => {
           <h3 className="font-playfair text-4xl my-6 font-bold">Follow these 3 steps</h3>
           <div className='flex justify-between pt-9'>
               {/* FIrst Column---- */}
-          <div className='flex-col text-center'>
+          <div className='flex-col text-center hover:shadow-xl hover:rounded-lg'>
             <div className='bg-primary rounded-lg px-7 py-4 flex justify-center mx-auto w-24'><FaBicycle className='text-center font-extrabold text-6xl text-white'></FaBicycle></div>
             <h4 className='my-6 font-bold text-3xl'>Select a bike</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -20,7 +20,7 @@ const Follow3Steps = () => {
           </div>
 
             {/* Second Column---- */}
-          <div className='flex-col text-center'>
+          <div className='flex-col text-center hover:shadow-xl hover:rounded-lg'>
             <div className='bg-primary rounded-lg px-7 py-4 flex justify-center mx-auto w-24'><FaMoneyCheckAlt className='text-center font-extrabold text-6xl text-white'></FaMoneyCheckAlt></div>
             <h4 className='my-6 font-bold text-3xl'>Set a date</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -30,7 +30,7 @@ const Follow3Steps = () => {
           </div>
 
             {/* Third Column---- */}
-          <div className='flex-col text-center'>
+          <div className='flex-col text-center hover:shadow-xl hover:rounded-lg'>
             <div className='bg-primary rounded-lg px-7 py-4 flex justify-center mx-auto w-24'><FaBiking className='text-center font-extrabold text-6xl text-white'></FaBiking></div>
             <h4 className='my-6 font-bold text-3xl'>Pick up the product</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
