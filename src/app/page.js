@@ -8,6 +8,7 @@ import Friendly from '@/Components/Home/Friendly/Friendly';
 import Follow3Steps from '@/Components/Home/Follow3Steps/Follow3Steps';
 import BuyaCycle from '@/Components/Home/BuyaCycle/BuyaCycle';
 import ChooseUs from '@/Components/Home/ChooseUs/ChooseUs';
+import OurBikes from '@/Components/Home/OurBikes/OurBikes';
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
 
         {/* Follow these 3 steps --------------------------------- */}
       <Follow3Steps />
+
+      <OurBikes />
 
         {/* Friendly, fast process and good response--------------------------------- */}
       <Friendly />

@@ -7,7 +7,7 @@ const Friendly = () => {
         <section className='my-32 items-center'>
       <div className="flex">
         <div className="w-2/5 z-10">
-        <div class="w-4/6 ms-40 h-full rounded-full bg-primary"></div>
+        <div className="w-4/6 ms-40 h-full rounded-full bg-primary"></div>
           <Image className=' h-full mx-8 relative bottom-80 left-10 -top-80' src={SingleCycle} alt='next-step-image'></Image>
         </div>
 
