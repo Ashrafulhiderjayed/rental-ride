@@ -2,65 +2,65 @@
   {
     "id": 1,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/handbrake-01.jpg",
-    "Title": "Handbrake Bike",
-    "HourlyRate": 9.99,
-    "DailyRate": 99.99,
-    "Online": "25.60 (20%)"
+    "title": "Handbrake Bike",
+    "hourlyRate": 9.99,
+    "dailyRate": 99.99,
+    "": "25.60 (20%)"
   },
   {
     "id": 2,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/footbreak-01.jpg",
-    "Title": "Footbrake Bike",
-    "HourlyRate": 0.49,
-    "DailyRate": 79.99,
-    "Online": "31.60 (30%)"
+    "title": "Footbrake Bike",
+    "hourlyRate": 0.49,
+    "dailyRate": 79.99,
+    "online": "31.60 (30%)"
   },
   {
     "id": 3,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/small-01.jpg",
-    "Title": "Small Bike",
-    "HourlyRate": 9.99,
-    "DailyRate": 79.99,
-    "Online": "25.60 (20%)"
+    "title": "Small Bike",
+    "hourlyRate": 9.99,
+    "dailyRate": 79.99,
+    "online": "25.60 (20%)"
   },
   {
     "id": 4,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/gents-01.jpg",
-    "Title": "Gentlemen’s Bike",
-    "HourlyRate": 9.99,
-    "DailyRate": 99.99,
-    "Online": "25.60 (20%)"
+    "title": "Gentlemen’s Bike",
+    "hourlyRate": 9.99,
+    "dailyRate": 99.99,
+    "online": "25.60 (20%)"
   },
   {
     "id": 5,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/kids-01.jpg",
-    "Title": "Kids Bike",
-    "HourlyRate": 7.99,
-    "DailyRate": 79.99,
-    "Online": "31.60 (30%)"
+    "title": "Kids Bike",
+    "hourlyRate": 7.99,
+    "dailyRate": 79.99,
+    "online": "31.60 (30%)"
   },
   {
     "id": 6,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/tandem-01.jpg",
-    "Title": "Tandem",
-    "HourlyRate": 9.99,
-    "DailyRate": 59.99,
-    "Online": "25.60 (20%)"
+    "title": "Tandem",
+    "hourlyRate": 9.99,
+    "dailyRate": 59.99,
+    "online": "25.60 (20%)"
   },
   {
     "id": 7,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/cargo-01.jpg",
-    "Title": "Cargo Bike",
-    "HourlyRate": 9.99,
-    "DailyRate": 49.99,
-    "Online": "25.60 (20%)"
+    "title": "Cargo Bike",
+    "hourlyRate": 9.99,
+    "dailyRate": 49.99,
+    "online": "25.60 (20%)"
   },
   {
     "id": 8,
     "image": "https://komo.vamtam.com/wp-content/uploads/2018/08/ebike-01.jpg",
-    "Title": "Electric Bike",
-    "HourlyRate": 9.99,
-    "DailyRate": 79.99,
-    "Online": "31.60 (30%)"
+    "title": "Electric Bike",
+    "hourlyRate": 9.99,
+    "dailyRate": 79.99,
+    "online": "31.60 (30%)"
   }
 ]
