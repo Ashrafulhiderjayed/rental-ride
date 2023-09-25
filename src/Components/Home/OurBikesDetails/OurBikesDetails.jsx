@@ -6,7 +6,7 @@ const OurBikesDetails = ( {bike} ) => {
     console.log(bike)
     const {id, image, title, hourlyRate, dailyRate, online} = bike;
     return (
-        <section className="card card-compact w-96 bg-base-100 shadow-xl">
+        <section className="card card-compact w-96 bg-base-100 shadow-xl mt-10">
         <figure><Image src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
         <div className="card-body">
             <h4>{id}</h4>

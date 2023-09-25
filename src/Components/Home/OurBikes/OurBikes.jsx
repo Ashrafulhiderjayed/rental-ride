@@ -1,5 +1,3 @@
-// 'use client'
-// import React, { useEffect, useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import bikes from '../../../../public/bikes.json'
 import Image from 'next/image';

@@ -1,6 +1,8 @@
 import Footer from '@/Components/Footer/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
+import AuthProviders from '@/providers/AuthProviders'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,7 +40,7 @@ export default function RootLayout({ children }) {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
+          <li><Link href="/">Home</Link></li>
             <li tabIndex={0}>
               <details>
                 <summary>Bikes</summary>
@@ -48,18 +50,20 @@ export default function RootLayout({ children }) {
                 </ul>
               </details>
             </li>
-            <li><a>Contact</a></li>
+            <li><Link href="aboutUs">About Us</Link></li>
+            <li><Link href="contact">Contact</Link></li>
+            <li><Link href="/login">Login</Link></li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn rounded-full bg-primary hover:bg-primaryLight font-bold text-white">Book Now</a>
+          <a className="btn rounded-full bg-primary hover:bg-primaryLight font-bold text-white capitalize">Book Now</a>
         </div>
       </div>
       {/* 
       Navbar End
       */}
     
-        {children}
+        <AuthProviders>{children}</AuthProviders>
         <Footer />
       </body>
     </html>

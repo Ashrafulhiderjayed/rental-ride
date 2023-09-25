@@ -1,15 +1,15 @@
-// 'use client'
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Fhelmet from '../../../../public/images/F-helmet.png'
-import { FaArrowRight, FaBox, FaBoxOpen, FaBoxTissue, FaBoxes, FaHeadSideCough, FaLock, FaLockOpen, FaMap, FaMapMarked, FaMapMarkedAlt, FaMapMarker, FaMapSigns, FaParachuteBox, FaRegClock, FaUnlock, FaUserLock } from 'react-icons/fa';
+import { FaArrowRight, FaBox, FaBoxOpen, FaBoxTissue, FaBoxes, FaHeadSideCough, FaLock, FaLockOpen, FaMap, FaMapMarked, FaMapMarkedAlt, FaMapMarker, FaMapSigns, FaParachuteBox, FaRegClock, FaUnlock, FaBiking } from 'react-icons/fa';
 import { Capriola } from 'next/font/google';
 
 const IncludedWrental = () => {
     return (
-        <section className='bg-grayBG p-4 my-3 rounded-md'>
-                <h4 className='text-center font-bold'>Included with every bike rental:</h4>
+        <section className='bg-grayBG my-3 mt-7 rounded-md'>
+                <h4 className='bg-deepNavy text-white p-2 text-center font-bold items-center'>
+                    <FaBiking className='inline text-white mb-1' /> Included with every bike rental:</h4>
             <div className='flex flex-wrap justify-between p-4 items-center'>
                 <div>
                 <Image className='-mt-4' src={Fhelmet} width={50} height={50} alt="Shoes" />

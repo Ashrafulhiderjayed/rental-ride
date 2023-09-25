@@ -3,7 +3,7 @@ import { FaCheckCircle, FaCubes, FaThumbsUp } from 'react-icons/fa';
 
 const ChooseUs = () => {
     return (
-    <section className='my-48'>
+    <section>
       <div className='text-center'>
         <p className='text-primary'>WE ARE REBIKE</p>
         <h3 className='text-3xl font-bold p-5'>Why Choose us</h3>

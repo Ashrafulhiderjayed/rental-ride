@@ -1,6 +1,13 @@
-/* .footer-banner .footer-waves{
-    position: absolute;
+/* Footer.css */
+
+/* .footer-banner {
+    position: initial;
     bottom: 0;
-    width: 100%;
     left: 0;
-} */
+    width: 100%;
+    background-color: rgb(8, 40, 82);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+   */
