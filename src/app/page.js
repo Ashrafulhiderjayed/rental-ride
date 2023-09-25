@@ -9,6 +9,7 @@ import Follow3Steps from '@/Components/Home/Follow3Steps/Follow3Steps';
 import BuyaCycle from '@/Components/Home/BuyaCycle/BuyaCycle';
 import ChooseUs from '@/Components/Home/ChooseUs/ChooseUs';
 import OurBikes from '@/Components/Home/OurBikes/OurBikes';
+import IncludedWrental from '@/Components/Home/IncludedWrental/IncludedWrental';
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       <Follow3Steps />
 
       <OurBikes />
+
+      {/* Included with every bike rental */}
+      <IncludedWrental />
 
         {/* Friendly, fast process and good response--------------------------------- */}
       <Friendly />

@@ -39,7 +39,7 @@ const OurBikes = async() => {
             {
                 bikes.map(bike =><>
                 {/* <section className="flex"> */}
-                <div className="card card-compact w-64 bg-base-100 shadow-xl hover:drop-shadow-2xl">
+                <div className="card card-compact w-64 bg-base-100 hover:drop-shadow-xl">
                     <figure><Image src={bike.image} width={200} height={100} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-bold">{bike.title}</h2>

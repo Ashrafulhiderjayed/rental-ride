@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         primary: "#fe5b3e",
         primaryLight: "#FF7F5B",
+        grayBG: "rgb(249, 245, 239)",
         deepNavy: 'rgb(8, 40, 82)',
       },
       fontFamily:{
